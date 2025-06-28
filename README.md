@@ -21,6 +21,7 @@ A simple full-stack CRUD application built with:
 project-root/
 │
 ├── server/ # Express backend
+
 │ ├── models/ # Mongoose schemas
 │ ├── routes/ # API routes
 │ ├── server.js # Main server entry
