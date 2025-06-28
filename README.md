@@ -16,17 +16,16 @@ A simple full-stack CRUD application built with:
 
 ---
 
+```
 ## 📂 Project Structure
 
 project-root/
-│
 ├── server/ # Express backend
-
 │ ├── models/ # Mongoose schemas
 │ ├── routes/ # API routes
 │ ├── server.js # Main server entry
 │
-├── client/ # React frontend (Vite or CRA)
+├── client/ # React frontend (Vite)
 │ ├── src/
 │ │ ├── components/ # Shared UI components (BackButton, Spinner, etc.)
 │ │ ├── pages/ # Pages (CreateBook, BookList, etc.)
@@ -37,3 +36,4 @@ project-root/
 ├── .env # Environment variables (DB URI, ports)
 ├── package.json # Root dependencies
 └── README.md
+```
